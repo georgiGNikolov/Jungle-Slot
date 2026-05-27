@@ -1,0 +1,153 @@
+{
+  "__version__": "1.3.9",
+  "log": {
+    "level": 2
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "outputName": "windows",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "windows"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1755553246765": {
+        "type": "build",
+        "id": "1755553246765",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "23-08-2025 22:43:04 build success in 1 min 1 s!",
+        "detailMessage": "// ---- build task cocos-service：onAfterBuild ----\r",
+        "options": {
+          "name": "Slot_Assignment",
+          "server": "",
+          "engineModulesConfigKey": "defaultConfig",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "buildMode": "normal",
+          "mangleProperties": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "inlineEnum": true,
+          "useBuiltinServer": false,
+          "md5CacheOptions": {
+            "excludes": [],
+            "includes": [],
+            "replaceOnly": [],
+            "handleTemplateMd5Link": true
+          },
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "805c919f-5b18-43e8-ab06-c23eb2a44a84",
+          "outputName": "web-desktop",
+          "taskName": "web-desktop",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/main.scene",
+              "uuid": "805c919f-5b18-43e8-ab06-c23eb2a44a84"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.9",
+          "logDest": "project://temp/builder/log/web-desktop19.08.2025 г. 00-40.log"
+        },
+        "time": "23-08-2025 22:42:02",
+        "dirty": false
+      },
+      "1755978331618": {
+        "type": "build",
+        "id": "1755978331618",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "23-08-2025 22:46:21 build success in 50 s!",
+        "detailMessage": "[cmake] -- Configuring done\r\r\r",
+        "options": {
+          "name": "Slot_Assignment",
+          "server": "",
+          "engineModulesConfigKey": "defaultConfig",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "buildMode": "normal",
+          "mangleProperties": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "inlineEnum": true,
+          "useBuiltinServer": false,
+          "md5CacheOptions": {
+            "excludes": [],
+            "includes": [],
+            "replaceOnly": [],
+            "handleTemplateMd5Link": true
+          },
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "805c919f-5b18-43e8-ab06-c23eb2a44a84",
+          "outputName": "windows",
+          "taskName": "windows",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/main.scene",
+              "uuid": "805c919f-5b18-43e8-ab06-c23eb2a44a84"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.9",
+          "logDest": "project://temp/builder/log/windows23-08-2025 22-45.log"
+        },
+        "time": "23-08-2025 22:45:31",
+        "dirty": false
+      }
+    }
+  }
+}
